@@ -112,6 +112,16 @@
       "name": "Бизнес",
       "user_id": "1",
       "id": "3"
+    },
+    {
+      "name": "Сбербанк",
+      "user_id": "387zyh8ol7unk96e",
+      "id": "1ae2t7idgl8a9o8tg"
+    },
+    {
+      "name": "ОТП банк",
+      "user_id": "387zyh8ol7unk96e",
+      "id": "1ae2t77wol8a9ond4"
     }
   ],
   "transactions": [
@@ -249,6 +259,42 @@
       "sum": 300000,
       "type": "expense",
       "user_id": "1"
+    },
+    {
+      "id": "1ae2t7hi8l8a9z694",
+      "type": "expense",
+      "name": "счет",
+      "sum": 100,
+      "account_id": "1ae2t7idgl8a9o8tg",
+      "user_id": "387zyh8ol7unk96e",
+      "created_at": "2022-09-20T14:12:04.071Z"
+    },
+    {
+      "id": "1ae2t79dwl8aakz33",
+      "type": "income",
+      "name": "Цветы",
+      "sum": 1500,
+      "account_id": "1ae2t7idgl8a9o8tg",
+      "user_id": "387zyh8ol7unk96e",
+      "created_at": "2022-09-20T14:29:01.214Z"
+    },
+    {
+      "id": "1ae2t7hdcl8aamco6",
+      "type": "income",
+      "name": "Продажа Авто",
+      "sum": 600000,
+      "account_id": "1ae2t77wol8a9ond4",
+      "user_id": "387zyh8ol7unk96e",
+      "created_at": "2022-09-20T14:30:05.478Z"
+    },
+    {
+      "id": "1ae2t797wl8aamxmp",
+      "type": "expense",
+      "name": "Налог",
+      "sum": 150000,
+      "account_id": "1ae2t77wol8a9ond4",
+      "user_id": "387zyh8ol7unk96e",
+      "created_at": "2022-09-20T14:30:32.640Z"
     }
   ]
 }

@@ -9,14 +9,14 @@ class LoginForm extends AsyncForm {
    * устанавливает состояние App.setState( 'user-logged' ) и
    * закрывает окно, в котором находится форма
    * */
-   onSubmit(data) {
+  onSubmit(data) {
     User.login(data, (err, response) => {
-      if (response.success) {
+      if (response) {
         App.setState("user-logged");
         this.element.reset();
         App.getModal("login").close();
       }
-     
+
     });
   }
 }
